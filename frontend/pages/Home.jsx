@@ -300,11 +300,15 @@ function Portfolio() {
 
             <div>
             <p style={styles.aboutText}>
+
+
             Hello! I'm M.H.A.S.K.Hettiarachchi, a passionate web developer with a strong foundation in creating dynamic and user-friendly web applications. I specialize in front-end development, with expertise in HTML, CSS, JavaScript, and modern frameworks like React.
 I am deeply committed to crafting intuitive, aesthetically pleasing, and responsive web interfaces that enhance user experience. I love working on challenging projects that push my boundaries, whether it's building engaging user interfaces or integrating back-end services to deliver fully functional applications.
 Outside of coding, I am always learning new technologies and staying up-to-date with the latest trends in the tech world. Whether it's mastering a new JavaScript library or exploring the latest design trends, I'm constantly growing my skill set to deliver cutting-edge web solutions.
 With a strong attention to detail and a passion for perfection, I aim to transform ideas into reality by building websites and applications that are both visually appealing and highly functional.
 Feel free to explore my portfolio and get in touch if you're interested in collaborating on exciting web projects!
+
+
             </p>
             </div>
           </div>
@@ -328,7 +332,7 @@ Feel free to explore my portfolio and get in touch if you're interested in colla
               <p>Personalized travel experiences showcasing beautiful destinations.</p>
             </div>
             </a>
-            <a href="">
+            <a href="https://www.figma.com/proto/0ZqKjHGHQUoh4rqVAu3q1H/HCI?node-id=109-67&node-type=canvas&t=wgjCtr4Sy2AXhhh2-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=109%3A67">
             <div style={styles.projectCard} onMouseEnter={(e) => (e.target.style.transform = styles.projectCardHover.transform)} onMouseLeave={(e) => (e.target.style.transform = '')}>
               <img
                 src="https://github.com/SLDima2001/My-PortFolio/blob/main/frontend/Project%202.png?raw=true"
@@ -373,7 +377,7 @@ Feel free to explore my portfolio and get in touch if you're interested in colla
                 placeholder="Phone"
                 style={styles.input}
                 value={phone}
-                onChange={(e) => setPhone(e.target.value)}
+                onChange={(e) => setPhone(value.replace(/[^0-9]/g, ''))}
               />
               <textarea
                 placeholder="Message"
@@ -399,10 +403,24 @@ Feel free to explore my portfolio and get in touch if you're interested in colla
       <footer style={styles.footer}>
         <div>Follow me on social media!</div>
         <div style={styles.socialIcons}>
-          <FaFacebook style={styles.socialIcon} />
-          <FaInstagram style={styles.socialIcon} />
-          <FaLinkedin style={styles.socialIcon} />
-          <FaEnvelope style={styles.socialIcon} />
+         
+      
+        <a
+          href="https://www.instagram.com/she_kavi_07/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={styles.socialIcon}
+        >
+          <FaInstagram />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/shehani-kavindya-hettiarachchi/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={styles.socialIcon}
+        >
+          <FaLinkedin />
+        </a>
         </div>
       </footer>
     </div>
