@@ -292,7 +292,7 @@ function Portfolio() {
           <div style={styles.aboutContainer}>
             <div>
             <img
-              src="My.jpg"
+              src="https://github.com/SLDima2001/She-Portfolio/blob/main/frontend/My.jpg?raw=true"
               alt="Dimalsha Praveen"
               style={styles.aboutImage}
             />
