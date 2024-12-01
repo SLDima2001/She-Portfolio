@@ -139,7 +139,7 @@ function Portfolio() {
       transform: "translateY(50px)",
     },
     section1: {
-      display:isMobile?"inline-block":"",
+      display:isMobile?"":"",
       textAlign: "center",
       padding: "40px 20px",
       transition: "opacity 0.6s ease, transform 0.6s ease",
@@ -290,11 +290,15 @@ function Portfolio() {
         >
           <h2>About Me</h2>
           <div style={styles.aboutContainer}>
+            <div>
             <img
-              src="https://github.com/SLDima2001/My-PortFolio/blob/main/frontend/My.jpg?raw=true"
+              src="My.jpg"
               alt="Dimalsha Praveen"
               style={styles.aboutImage}
             />
+            </div>
+
+            <div>
             <p style={styles.aboutText}>
             Hello! I'm M.H.A.S.K.Hettiarachchi, a passionate web developer with a strong foundation in creating dynamic and user-friendly web applications. I specialize in front-end development, with expertise in HTML, CSS, JavaScript, and modern frameworks like React.
 I am deeply committed to crafting intuitive, aesthetically pleasing, and responsive web interfaces that enhance user experience. I love working on challenging projects that push my boundaries, whether it's building engaging user interfaces or integrating back-end services to deliver fully functional applications.
@@ -302,6 +306,7 @@ Outside of coding, I am always learning new technologies and staying up-to-date 
 With a strong attention to detail and a passion for perfection, I aim to transform ideas into reality by building websites and applications that are both visually appealing and highly functional.
 Feel free to explore my portfolio and get in touch if you're interested in collaborating on exciting web projects!
             </p>
+            </div>
           </div>
         </section>
 
@@ -315,7 +320,7 @@ Feel free to explore my portfolio and get in touch if you're interested in colla
             <a href="https://lahirutours.co.uk/">
             <div style={styles.projectCard} onMouseEnter={(e) => (e.target.style.transform = styles.projectCardHover.transform)} onMouseLeave={(e) => (e.target.style.transform = '')}>
               <img
-                src="https://via.placeholder.com/400x150.png?text=Lahiru+Tours"
+                src="https://github.com/SLDima2001/My-PortFolio/blob/main/frontend/photo123.png?raw=true"
                 alt="Lahiru Tours"
                 style={styles.projectImage}
               />
@@ -326,7 +331,7 @@ Feel free to explore my portfolio and get in touch if you're interested in colla
             <a href="">
             <div style={styles.projectCard} onMouseEnter={(e) => (e.target.style.transform = styles.projectCardHover.transform)} onMouseLeave={(e) => (e.target.style.transform = '')}>
               <img
-                src="https://via.placeholder.com/400x150.png?text=React+App"
+                src="https://github.com/SLDima2001/My-PortFolio/blob/main/frontend/Project%202.png?raw=true"
                 alt="React App"
                 style={styles.projectImage}
               />
