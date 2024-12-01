@@ -293,7 +293,7 @@ function Portfolio() {
             <div>
             <img
               src="https://github.com/SLDima2001/She-Portfolio/blob/main/frontend/My.jpg?raw=true"
-              alt="Dimalsha Praveen"
+              alt="Shehani Kavindya"
               style={styles.aboutImage}
             />
             </div>
