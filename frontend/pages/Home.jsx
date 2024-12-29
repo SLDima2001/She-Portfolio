@@ -377,7 +377,7 @@ Feel free to explore my portfolio and get in touch if you're interested in colla
                 placeholder="Phone"
                 style={styles.input}
                 value={phone}
-                onChange={(e) => setPhone(value.replace(/[^0-9]/g, ''))}
+                onChange={(e) => setPhone(e.target.value.replace(/[^0-9]/g, ''))}
               />
               <textarea
                 placeholder="Message"
